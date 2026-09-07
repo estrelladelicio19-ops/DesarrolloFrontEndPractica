@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Con esta página estamos aprendiendo accesibilidad">
+    <title>Mis Proyectos</title>
+    <style>
+        a:focus, button:focus
+        {
+            outline: 3px solid #005fcc;
+            outline-offset: 5px;
+        }
+        body{
+            background-color: antiquewhite;
+            color: brown;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Estrella Delicio Gonzales </h1>
-    <img src="instituto.jpg" alt="imagen de la fachada del instituto">
+
+    <header>
+        <h1>Mis Proyectos</h1>
+
+        <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+        </nav>
+    </header>
+    
+    <main>
+
+       <h2>Nuestros Productos</h2>
+       <button>Comprar Aqui </button>
+       <img src="instituto.jpg" alt="imagen de la fachada del instituto Trujillo" >
+       <img src="imagendecorativa.jpg" alt="">
+       
+       <form action="">
+
+            <label for="usuario"></label>
+            <input type="text" placeholder="Ingrese usuario" name="usuario">
+
+            <label for="contrasena"></label>
+            <input type="text" placeholder="Ingrese contraseña" name="contrasena">
+            <button>Ingresar</button>
+        
+       </form>
+       <!--Los  enlaces para navegar-->
+       <a href="nosotros.html">Ir a Nosotros</a>
+       <!--Los botones se usan para acciones-->
+       <button>Guardar</button>
+    </main>
+    
+    <footer>
+        ©Derechos Reservados por DWFE-M del instituto "Trujillo" - 2026
+    </footer>
 </body>
+
 </html>
